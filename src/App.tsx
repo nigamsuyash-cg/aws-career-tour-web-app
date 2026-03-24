@@ -12,7 +12,6 @@ import MainPage from './pages/MainPage'
 import VideoModulePage from './pages/VideoModulePage'
 import TextModulePage from './pages/TextModulePage'
 import QuizModulePage from './pages/QuizModulePage'
-import ProfileCompletionModulePage from './pages/ProfileCompletionModulePage'
 import CourseCompletedPage from './pages/CourseCompletedPage'
 import CertificatePage from './pages/CertificatePage'
 import EditProfilePage from './pages/EditProfilePage'
@@ -119,7 +118,6 @@ export default function App() {
         <Route path="/module/:moduleUuid" element={<VideoModulePage />} />
         <Route path="/module/:moduleUuid/text" element={<TextModulePage />} />
         <Route path="/module/:moduleUuid/quiz" element={<QuizModulePage />} />
-        <Route path="/module/profile-completion/profile" element={<ProfileCompletionModulePage />} />
         <Route path="/certificate/:certUuid" element={<CertificatePage />} />
         <Route path="/profile/edit" element={<EditProfilePage />} />
       </Route>
