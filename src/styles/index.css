@@ -649,8 +649,19 @@ img {
   color: var(--color-text-primary);
 }
 
-.main-toolbar__logout-btn {
+.main-toolbar__lang-select {
   margin-left: auto;
+  padding: 4px 8px;
+  font-size: 13px;
+  border: 1px solid #e0e0e0;
+  border-radius: var(--radius-btn);
+  background: var(--color-white);
+  color: var(--color-text-primary);
+  cursor: pointer;
+}
+
+.main-toolbar__logout-btn {
+  margin-left: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1599,7 +1610,7 @@ img {
 
 /* ─── MainPage landscape: side-by-side tabs ──────────────────────────────── */
 @media (orientation: landscape) {
-  .main-page {
+  /* .main-page {
     flex-direction: row;
   }
 
@@ -1614,9 +1625,9 @@ img {
   .main-page__content {
     flex: 1;
     height: 100%;
-  }
+  } */
 
-  .main-toolbar {
+  /* .main-toolbar {
     display: none;
-  }
+  } */
 }
